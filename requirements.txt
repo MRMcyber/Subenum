@@ -1,0 +1,8 @@
+# Python dependencies for subenum.py and the Python-based tools it calls.
+# subenum.py itself only uses the standard library.
+# Most of the other tools are Go binaries and are installed by install.sh, not pip.
+
+requests>=2.31          # ctfr
+shodan>=1.31            # Shodomain
+censys>=2.2             # censys-subdomain-finder
+git+https://github.com/vortexau/dnsvalidator.git   # dnsvalidator (resolver list generation)

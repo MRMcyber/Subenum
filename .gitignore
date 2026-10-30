@@ -1,0 +1,48 @@
+# Recon artifacts & scan outputs
+*_recon/
+*_subdomains.txt
+all_subdomains.txt
+resolvers.txt
+websites.txt
+urls.txt
+gungnir_domains.txt
+gh_tokens.txt
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Secrets and local configurations
+.env
+*.local
+tokens.txt
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
